@@ -1,0 +1,96 @@
+body {
+    background-color: #263d48;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Source Sans Pro, sans-serif";
+}
+
+.container {
+    background-color: #fff;
+    width: 350px;
+    height: 450px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px 0px rgba(24, 24, 25, 0.15);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top: 5px solid rgb(33, 201, 166);
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(38, 61, 72);
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+input {
+    width: 250px;
+    font-size: 14px;
+    color: rgb(38, 61, 72);
+    line-height: 1.143;
+    border: 0 solid;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+
+/* all */
+
+::-webkit-input-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder,
+input:-moz-placeholder {
+    font-size: 14px;
+    color: rgb(188, 201, 198);
+    line-height: 1.143;
+    text-align: left;
+}
+
+input:focus {
+    outline: none;
+    color: rgb(38, 61, 72);
+}
+.form-input::before{
+    content: "\f007";
+    position: absolute;
+    font-family: "FontAwesome";
+/*    color: rgb(188, 201, 198);*/
+    color: rgb(33, 201, 166);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.lock::before{
+    content: "\f023";
+}
+.btn {
+    width: 270px;
+    font-size: 18px;
+    color: rgb(252, 252, 252);
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: rgb(33, 201, 166);
+    box-shadow: 0px 2px 3px 0px rgba(24, 24, 25, 0.15);
+    padding: 15px;
+    border-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.forget-pass a{
+    color: rgb(188, 201, 198);
+}
+.create-new{
+    color: rgb(188, 201, 198);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 48px;
+    border-top: 1px solid #e5e5e5;
+}
+.create-new a{
+   color: rgb(33, 201, 166); 
+}
